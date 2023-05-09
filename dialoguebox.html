@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialogue box</title>
+</head>
+<body>
+    <h3>Demonstration of Dialogue boxes</h3>
+    <script>
+        function func1()
+        {
+            alert("This is an Alert");
+            document.body.style.backgroundColor = 'red';
+
+        }
+        function func2()
+        {
+            if(confirm("This is confirm buttom"))
+            {
+                document.write("You pressed ok");
+                document.body.style.backgroundColor = 'blue';
+            }
+            else
+            {
+                document.write("You pressed cancel");
+                document.body.style.backgroundColor = 'green';
+            }
+
+        }
+        function func3()
+        {
+            var x=prompt("Enter the prompt ");
+            document.write(" you have typed"+x);
+            document.body.style.backgroundColor = 'yellow';
+        }
+    </script>
+    <button onclick="func1()">Alert 1</button>
+    <br>
+    <button onclick="func2()">Alert 2</button>
+    <br>
+    <button onclick="func3()">Alert 3</button>
+    <br>
+</body>
+</html>

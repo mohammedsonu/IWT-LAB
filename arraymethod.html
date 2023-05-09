@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array methods</title>
+</head>
+<body>
+    <h2 id="sample1"></h2>
+    <h2 id="sample2"></h2>
+    <h2 id="sample3"></h2>
+    <h2 id="sample4"></h2>
+    <h2 id="sample5"></h2>
+    <h2 id="sample6"></h2>
+    <h2 id="sample7"></h2>
+    <h2 id="sample8"></h2>
+    <h2 id="sample9"></h2>
+    <h2 id="sample10"></h2>
+    <script>
+        const names = ["abhitesh", "sonu", "mohammed", "nandipati"];
+        document.getElementById("sample1").innerHTML ="To string func";
+        document.getElementById("sample2").innerHTML = names.toString();
+        document.getElementById("sample3").innerHTML ="Join func";
+        document.getElementById("sample4").innerHTML = names.join("*");
+        document.getElementById("sample5").innerHTML = names.pop();
+        document.getElementById("sample6").innerHTML ="After Pop()";
+        document.getElementById("sample7").innerHTML =names;
+        document.getElementById("sample8").innerHTML = names.push("cbit");
+        document.getElementById("sample9").innerHTML ="After Push()";
+        document.getElementById("sample10").innerHTML =names;
+    </script>
+</body>
+</html>
